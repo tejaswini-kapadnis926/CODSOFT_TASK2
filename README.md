@@ -79,29 +79,66 @@ The Minimax algorithm is a decision-making algorithm used in two-player games. I
 
 ## 📸 Sample Output
 
-```
+sk2_TicTacToeAI> python tic_tac_toe.py
 ===== TIC TAC TOE AI =====
 
-Board Positions
+Board Positions:
 
-1 | 2 | 3
----------
-4 | 5 | 6
----------
-7 | 8 | 9
+ 1 | 2 | 3
+---+---+---
+ 4 | 5 | 6
+---+---+---
+ 7 | 8 | 9
 
-Enter position (1-9): 5
 
+   |   |  
+---+---+---
+   |   |  
+---+---+---
+   |   |  
+
+Enter position (1-9): 2
 AI is thinking...
 
- O |   |
----------
-   | X |
----------
-   |   |
-```
 
----
+
+ O | X |  
+---+---+---
+   |   |  
+---+---+---
+   |   |  
+
+Enter position (1-9): 8
+AI is thinking...
+
+
+
+ O | X |  
+---+---+---
+   | O |  
+---+---+---
+   | X |  
+
+Enter position (1-9): 9
+AI is thinking...
+
+
+ O | X |  
+---+---+---
+   | O |  
+---+---+---
+ O | X | X
+
+Enter position (1-9): 3
+AI is thinking...
+
+ O | X | X
+---+---+---
+ O | O |  
+---+---+---
+ O | X | X
+
+AI Wins!
 
 ## 👩‍💻 Developed By
 **Tejaswini Kapadnis**
